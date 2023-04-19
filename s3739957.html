@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>
+            Rohit Nijasure Assignment Website</title>
+            <script src="https://cdnjs.cloudfare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+    </head>
+
+    <style>
+        .row{
+            width: 720px;
+            margin: 15px auto 15px auto ;
+        }
+        .image-container {
+            display: table-cell;
+            vertical-align: middle;
+            padding:25px;
+        }
+</style>
+    
+    <body style="background-color: cornsilk;">
+        <div class="row">
+            <div class="image-container"><img id="Icon1" src="img/Icon1.png" onmouseover="this.src= 'img/icon1 Hover.png';" onmouseout="this.src='img/icon1.png';" height="200" widt="200"/></div>
+            <div class="image-container"><img id="Icon2" src="img/Icon2.png" onmouseover="this.src= 'img/icon2 Hover.png';" onmouseout="this.src='img/icon2.png';" height="200" widt="200"/></div>
+            <div class="image-container"><img id="Icon3" src="img/Icon3.png" onmouseover="this.src= 'img/icon3 Hover.png';" onmouseout="this.src='img/icon3.png';" height="200" widt="200"/></div>
+        </div>
+    
+        <div class="row">
+            <div class="image-container"><img id="icon4" src="img/icon4.png" onmouseover="this.src= 'img/icon4 Hover.png';" onmouseout="this.src='img/icon4.png';" height="200" widt="200"/></div>
+            <div class="image-container"><img id="icon5" src="img/Icon5.png" onmouseover="this.src= 'img/icon5 Hover.png';" onmouseout="this.src='img/icon5.png';" height="200" widt="200"/></div>
+            <div class="image-container"><img id="icon6" src="img/Icon6.png" onmouseover="this.src= 'img/icon6 Hover.png';" onmouseout="this.src='img/icon6.png';" height="200" widt="200"/></div>
+        </div>
+
+        <div class="row">
+            <div class="image-container"><img id="icon7" src="img/Icon7.png" onmouseover="this.src= 'img/icon7 Hover.png';" onmouseout="this.src='img/icon7.png';" height="200" widt="200"/></div>
+            <div class="image-container"><img id="icon8" src="img/Icon8.png" onmouseover="this.src= 'img/icon8 Hover.png';" onmouseout="this.src='img/icon8.png';" height="200" widt="200"/></div>
+            <div class="image-container"><img id="icon9" src="img/Icon9.png" onmouseover="this.src= 'img/icon9 Hover.png';" onmouseout="this.src='img/icon9.png';" height="200" widt="200"/></div>
+        </body>
+<script>
+    var sound1 = new buzz.sound{"sound/icon1_sound.wav"};
+    var sound2 = new buzz.sound{"sound/icon2_sound.wav"};
+    var sound3 = new buzz.sound{"sound/icon3_sound.wav"};
+    var sound4 = new buzz.sound{"sound/icon4_sound.wav"};
+    var sound5 = new buzz.sound{"sound/icon5_sound.wav"};
+    var sound6 = new buzz.sound{"sound/icon6_sound.wav"};
+    var sound7 = new buzz.sound{"sound/icon7_sound.wav"};
+    var sound8 = new buzz.sound{"sound/icon8_sound.mp3"};
+    var sound9 = new buzz.sound{"sound/icon9_sound.wav"};
+    window.onload = function(){
+        document.getElementById( 'icon1').addEventListener( 'click' , function () {sound1.play("icon1_sound.wav"); });
+        document.getElementById( 'icon2').addEventListener( 'click' , function () {sound1.play("icon2_sound.wav"); });
+        document.getElementById( 'icon3').addEventListener( 'click' , function () {sound1.play("icon3_sound.wav"); });
+        document.getElementById( 'icon4').addEventListener( 'click' , function () {sound1.play("icon4_sound.wav"); });
+        document.getElementById( 'icon5').addEventListener( 'click' , function () {sound1.play("icon5_sound.wav"); });
+        document.getElementById( 'icon6').addEventListener( 'click' , function () {sound1.play("icon6_sound.wav"); });
+        document.getElementById( 'icon7').addEventListener( 'click' , function () {sound1.play("icon7_sound.wav"); });
+        document.getElementById( 'icon8').addEventListener( 'click' , function () {sound1.play("icon8_sound.mp3"); });
+        document.getElementById( 'icon9').addEventListener( 'click' , function () {sound1.play("icon9_sound.wav"); });
+    }
+    </script>
+        </html>
